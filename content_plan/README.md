@@ -3,6 +3,8 @@
 ## Overview
 This document outlines the process for creating, publishing, and building the site using **Racket** and **YAML**. The goal is to use Racket for structured content generation, YAML for metadata and content organization, and a simple build process to generate the final site.
 
+The root folder files (`index.html`, `static/site/style.css`, `static/js/app.js`) and their respective folders represent the core destination site format. These files should be considered the base for all UI planning. If needed, copy them to a separate folder or project for further experimentation or development.
+
 ## Content Workflow
 1. **Content Creation**:
    - Write content in YAML format.
