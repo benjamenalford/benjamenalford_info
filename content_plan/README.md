@@ -64,3 +64,10 @@ This document outlines the process for creating, publishing, and building the si
   - `body`: The main content of the file.
 - Write a Racket script to parse YAML and generate HTML.
 - Test the workflow with sample content.
+
+## TODO List
+- [ ] Implement Racket script for YAML parsing
+- [ ] Add error handling for missing or invalid YAML fields
+- [ ] Automate build process with a Makefile or shell script
+- [ ] Test private content exclusion logic
+- [ ] Document the build process in detail
