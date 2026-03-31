@@ -6,6 +6,10 @@ This document outlines the process for creating, publishing, and building the si
 ## Content Workflow
 1. **Content Creation**:
    - Write content in YAML format.
+   - Each content file will include:
+     - `date`: The creation or publication date of the content.
+     - `draft`: A boolean tag (`true` or `false`) to indicate if the content is a draft. Drafts will not be published.
+     - `tags`: A list of tags for categorization and future builds.
    - Use Racket scripts to parse YAML and generate HTML.
 
 2. **Publishing**:
@@ -14,6 +18,17 @@ This document outlines the process for creating, publishing, and building the si
 
 3. **Folder Structure**:
    - `source/`: Contains YAML content files.
+     - Example YAML file structure:
+       ```yaml
+       date: 2026-03-31
+       draft: false
+       tags:
+         - writing
+         - projects
+       title: "Sample Content"
+       body: |
+         This is the main content of the file.
+       ```
    - `scripts/`: Contains Racket scripts for processing content.
    - `site/`: Contains the generated HTML files (final site).
 
@@ -36,6 +51,11 @@ This document outlines the process for creating, publishing, and building the si
    - Ensure all generated files are clean and optimized for performance.
 
 ## Next Steps for Content Creation
-- Define the YAML schema for content.
+- Define the YAML schema for content:
+  - `date`: The creation or publication date of the content.
+  - `draft`: A boolean tag (`true` or `false`) to indicate if the content is a draft.
+  - `tags`: A list of tags for categorization.
+  - `title`: The title of the content.
+  - `body`: The main content of the file.
 - Write a Racket script to parse YAML and generate HTML.
 - Test the workflow with sample content.
