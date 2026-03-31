@@ -17,5 +17,19 @@ footer::after {
 }
 
 h1 + p {
-    margin-top: -0.5em;
+    margin-top: -0.75em;
+    padding-left: 2ch;
+    color: #555;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+#footer_links {
+    text-align: left;
+}
+
+#footer_links a {
+    margin-right: 1ch;
 }
