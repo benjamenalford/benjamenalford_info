@@ -20,13 +20,13 @@ Personal website serving as a replacement for social media and traditional web p
 - [ ] Implement draft filtering (drafts tagged in `.md` files)
 
 ### Bot/AI Protection
-- [ ] Add robots.txt to block bot crawling
-- [ ] Implement anti-AI scraping measures (meta tags, etc.)
-- [ ] No CAPTCHA or human verification required
-- [ ] Add `noindex` meta tag to prevent search engine indexing
-- [ ] Add `X-Robots-Tag` headers for server-side crawler directives
-- [ ] Block known AI User-Agents (e.g., GPTBot, CCBot, Anthropic-ai)
-- [ ] Add `X-Content-Type-Options: nosniff` header to prevent MIME type sniffing
+- [x] Add robots.txt to block bot crawling
+- [x] Implement anti-AI scraping measures (meta tags, etc.)
+- [x] No CAPTCHA or human verification required
+- [x] Add `noindex` meta tag to prevent search engine indexing
+- [x] Add `X-Robots-Tag` headers for server-side crawler directives
+- [x] Block known AI User-Agents (e.g., GPTBot, CCBot, Anthropic-ai)
+- [x] Add `X-Content-Type-Options: nosniff` header to prevent MIME type sniffing
 
 ### Private Sections
 - [ ] Create private/admin sections
