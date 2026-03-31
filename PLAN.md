@@ -40,5 +40,6 @@ Personal website serving as a replacement for social media and traditional web p
   - [ ] Add plain links for 'Writing', 'Projects', and 'About'
   - [ ] URLs will follow the structure: `/writing`, `/projects`, `/random`
   - [ ] Default `/random` will serve as the main page (for now)
+- [x] Override default UL LI bullet with a dash using CSS
 
 
