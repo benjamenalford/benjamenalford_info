@@ -5,9 +5,9 @@ body {
 }
 
 #footer_text {
-    text-align: right;
     max-width: 40ch;
 }
+
 #header::before,
 #content::before,
 footer::before,
@@ -26,8 +26,9 @@ footer a {
     font-weight: bold;
 }
 
-#footer_links {
-    text-align: left;
+#footer_content {
+    display: flex;
+    justify-content: space-between;
 }
 
 #footer_links a {
