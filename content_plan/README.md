@@ -31,6 +31,8 @@ This document outlines the process for creating, publishing, and building the si
        body: |
          This is the main content of the file.
        ```
+   - `source/private/`: Contains private YAML content files.
+     - Files in this folder will have UNIX permissions set for read/write access only.
    - `scripts/`: Contains Racket scripts for processing content.
    - `site/`: Contains the generated HTML files (final site).
 
