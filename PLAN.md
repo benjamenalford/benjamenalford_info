@@ -16,6 +16,7 @@ Personal website serving as a replacement for social media and traditional web p
 
 ### Content Structure (Long-term)
 - [ ] Populate content section from list of `.html` files
+  - [ ] Content will be located at `/content/<filename>`
 - [ ] Set up Pandoc workflow to convert `.md` → `.html`
 - [ ] Implement draft filtering (drafts tagged in `.md` files)
 
@@ -29,12 +30,15 @@ Personal website serving as a replacement for social media and traditional web p
 - [x] Add `X-Content-Type-Options: nosniff` header to prevent MIME type sniffing
 
 ### Private Sections
-- [ ] Create private/admin sections
-- [ ] Add links to internal subdomains
+- [ ] Create private/admin sections (accessible only by URL, no links)
+- [ ] Add links to internal subdomains (accessible only by URL, no links)
 - [ ] Display draft content in private sections only
 - [ ] Implement access control for private sections
 
 ### Future Enhancements
 - [ ] Navigation system for content browsing
+  - [ ] Add plain links for 'Writing', 'Projects', and 'About'
+  - [ ] URLs will follow the structure: `/writing`, `/projects`, `/random`
+  - [ ] Default `/random` will serve as the main page (for now)
 - [ ] Search functionality (optional)
 - [ ] Analytics tracking (privacy-respecting)
