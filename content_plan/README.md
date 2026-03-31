@@ -66,6 +66,13 @@ This document outlines the process for creating, publishing, and building the si
 - Test the workflow with sample content.
 
 ## TODO List
+- [ ] Create scaffold and folder structure:
+  - `source/`: Contains YAML content files.
+  - `source/private/`: Contains private YAML content files.
+  - `scripts/`: Contains Racket scripts for processing content.
+  - `site/`: Contains the generated HTML files (final site).
+  - `static/`: Contains static assets (CSS, JS, images).
+  - `content_plan/`: Contains documentation and plans for the content creation process.
 - [ ] Implement Racket script for YAML parsing
 - [ ] Add error handling for missing or invalid YAML fields
 - [ ] Automate build process with a Makefile or shell script
