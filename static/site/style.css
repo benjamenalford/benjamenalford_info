@@ -1,0 +1,19 @@
+body {
+    font-family: Courier, monospace;
+    width: 40ch;
+    max-width: 40ch;
+}
+
+#footer_text {
+    text-align: right;
+    max-width: 40ch;
+}
+
+h1::before,
+h1::after,
+#nav::before,
+footer::before,
+footer::after {
+    content: "........................................";
+    display: block;
+}
