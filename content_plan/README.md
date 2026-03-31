@@ -7,6 +7,7 @@ This document outlines the process for creating, publishing, and building the si
 1. **Content Creation**:
    - Write content in YAML format.
    - Each content file will include:
+     - `private`: A boolean tag (`true` or `false`) to indicate if the content is private. Private content will be excluded from the build and remain in the source folder.
      - `date`: The creation or publication date of the content.
      - `draft`: A boolean tag (`true` or `false`) to indicate if the content is a draft. Drafts will not be published.
      - `tags`: A list of tags for categorization and future builds.
@@ -25,6 +26,7 @@ This document outlines the process for creating, publishing, and building the si
        tags:
          - writing
          - projects
+       private: false
        title: "Sample Content"
        body: |
          This is the main content of the file.
@@ -55,7 +57,8 @@ This document outlines the process for creating, publishing, and building the si
   - `date`: The creation or publication date of the content.
   - `draft`: A boolean tag (`true` or `false`) to indicate if the content is a draft.
   - `tags`: A list of tags for categorization.
-  - `title`: The title of the content.
+  +  - `private`: A boolean tag (`true` or `false`) to indicate if the content is private. Private content will be excluded from the build and remain in the source folder.
+  +  - `title`: The title of the content.
   - `body`: The main content of the file.
 - Write a Racket script to parse YAML and generate HTML.
 - Test the workflow with sample content.
