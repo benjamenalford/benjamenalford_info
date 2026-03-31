@@ -23,6 +23,10 @@ Personal website serving as a replacement for social media and traditional web p
 - [ ] Add robots.txt to block bot crawling
 - [ ] Implement anti-AI scraping measures (meta tags, etc.)
 - [ ] No CAPTCHA or human verification required
+- [ ] Add `noindex` meta tag to prevent search engine indexing
+- [ ] Add `X-Robots-Tag` headers for server-side crawler directives
+- [ ] Block known AI User-Agents (e.g., GPTBot, CCBot, Anthropic-ai)
+- [ ] Add `X-Content-Type-Options: nosniff` header to prevent MIME type sniffing
 
 ### Private Sections
 - [ ] Create private/admin sections
