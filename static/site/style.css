@@ -21,9 +21,12 @@ ul {
     padding-left: 1em;
 }
 
-ul li::before {
-    content: "-";
-    margin-right: 0.5em;
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: "-";
 }
 
 h1 + p {
