@@ -1,7 +1,0 @@
-<IfModule mod_headers.c>
-    # Add X-Robots-Tag header to prevent indexing
-    Header set X-Robots-Tag "noindex, nofollow"
-
-    # Add X-Content-Type-Options header to prevent MIME type sniffing
-    Header set X-Content-Type-Options "nosniff"
-</IfModule>

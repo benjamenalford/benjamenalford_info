@@ -1,9 +1,0 @@
-date: 2026-03-31
-draft: false
-private: true
-tags:
-  - private
-  - internal
-title: "Sample Private Content"
-body: |
-  This is a sample private content file. It will not be included in the build or published to the site, as it is marked as private.
