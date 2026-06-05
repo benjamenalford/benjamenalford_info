@@ -9,17 +9,16 @@
   (call-with-input-file input-file
     (lambda (in) (port->string in))))
 
-; (define dir (car (split-path "../source/content/")))
-(define files (directory-list "../source/content/"))
-(for ([file files])
-  (when (regexp-match? #px"\\.md$" file)
-    (printf "Found Markdown file: ~a\n" file)))
+; (define files "../source/content/")
+; (for ([file files])
+;   (when (regexp-match? #px"\\.md$" file)
+;     (printf "Found Markdown file: ~a\n" file)))
 
 (define html
   (parse-markdown md))
 
 (define x `(html ()
-    (head ()    
+    (head ()
       (script ((src "static/js/app.js")))
       (link ((rel "stylesheet") (href "static/css/site.css"))))
     (body ()
