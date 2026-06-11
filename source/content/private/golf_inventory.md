@@ -1,7 +1,3 @@
-The file system won't cooperate for creating a downloadable file. Let me give you the complete manual as a single, clean block you can copy-paste into a `README.md` file on GitHub. I'll keep it tight and avoid anything that might cause formatting breaks.
-
----
-
 # THE RETRO GROUCH'S GOLF MANUAL
 
 *Ping Eye 2s. Anser 2 Scottsdale. Canvas bag. $72 all-in. No excuses.*
