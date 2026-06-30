@@ -103,7 +103,6 @@ Last Updated: 2026-06-11
 | Golf towel | Before first round | Free / from home | Medium | Maintenance |
 | Ping PP58 putter grip | When current grip wears | ~$9–10 | Medium | Putter feel / control |
 | Used Ping hybrid / 3-wood | Month 2+ | ~$30–50 | Low-Medium | Top-end gapping |
-| Driver | Month 3+ | ~$50–80 | Low | Delayed intentionally |
 
 ---
 
@@ -159,7 +158,7 @@ Last Updated: 2026-06-11
 |---|---|---|
 | Brand / Model | Specialized Allez | Black w/ white text |
 | Approx. Year | ~2008 | User-estimated |
-| Size | Unknown (likely mid-50s based on cockpit, but not confirmed) | Needs exact frame size |
+| Size | 54 |  |
 | Original Groupset | Shimano 105 R7000 | Removed, boxed, for sale |
 | Current Crank | Campagnolo 11s crank | |
 | Current BB | Campagnolo BB | |
